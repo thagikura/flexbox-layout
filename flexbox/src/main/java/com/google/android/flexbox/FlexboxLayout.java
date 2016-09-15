@@ -1765,6 +1765,7 @@ public class FlexboxLayout extends ViewGroup {
          */
         int maxBaseline;
 
+
         /**
          * Store the indices of the children views whose alignSelf property is stretch.
          * The stored indices are the absolute indices including all children in the Flexbox,
@@ -1773,5 +1774,3 @@ public class FlexboxLayout extends ViewGroup {
         List<Integer> indicesAlignSelfStretch = new ArrayList<>();
     }
 }
-
-
